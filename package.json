@@ -1,0 +1,28 @@
+{
+  "name": "test-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/xpath": "^2.0.3",
+    "@shelex/cypress-allure-plugin": "^2.38.3",
+    "allure-commandline": "^2.23.0",
+    "cypress": "^12.9.0",
+    "cypress-commands": "^3.0.0",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-plugin-api": "^2.11.1",
+    "esbuild": "^0.17.15",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
